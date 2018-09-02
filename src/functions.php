@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 /**
  * colored cubes for Problem #1 in the exercise
@@ -56,7 +57,6 @@ function visit(int $cord): int
  */
 function differEvenness(int $n, string $s): int
 {
-
     $numbers = explode(" ", $s); #split the given string
     $even    = 0;
     $odd     = 0;
@@ -91,7 +91,6 @@ function differEvenness(int $n, string $s): int
 
 function differEvennessFunctional(int $n, string $s): int
 {
-
     $numbers  = explode(" ", $s); #split the given string
     $evenness = array_map(function ($v) { # map each value to evenness representation (0=even, 1=odd)
         return $v & 1;

@@ -1,10 +1,9 @@
 # Interview Task
-
-The answers to the exercise Problems can be found in src/functions.php
+The answers to the exercise Problems can be found in [src/functions.php](blob/master/src/functions.php)
 
 ### Test Cases
-
-Test cases can be found in tests/FunctionsTest.php
+https://github.com/moealmaw/interview_task_rtv/blob/master/tests/FunctionsTest.php
+Test cases can be found in [tests/FunctionsTest.php](blob/master/tests/FunctionsTest.php)
 
 To run the PHPUnit test cases, make sure you have Composer installed.
 
